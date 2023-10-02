@@ -1,0 +1,375 @@
+﻿{
+    "LoginParameters": {
+        "Username": "useradmin@xplugng.com",
+        "Password": "Pasxw0rd"
+    },
+
+    //Test with wrong Credentails
+    "LoginFailedTest": {
+        "Username": "testuser@gmail.com",
+        "Password": "testpassWord!"
+    },
+
+    //Test with wrong Credentails - Empty User Name
+    "LoginEmptyUserName": {
+        "Username": "",
+        "Password": "testpassWord!"
+    },
+
+    //Test with wrong Credentails - Empty User Name and Password
+    "LoginEmptyUserPass": {
+        "Username": "",
+        "Password": ""
+    },
+
+    ////////////////////////////// Data Sector ///////////////////////////
+
+    "SectorField": {
+        "Name": "Selenium Cat 10210",
+        "Title": "Selenium Cat 10210"
+    },
+
+    "SectorFieldEmpty": {
+        "Name": " ",
+        "Title": " "
+    },
+
+    //This are the RequestType that can be intiated below
+            //	AuthorizationRequest = 1,
+            //	UnAuthorization =2,
+            //	ArchiveRequest = 3,
+            //	UnarchiveRequest = 4,
+            //	ModificationRequest = 5,
+            //	PublicationRequest = 6,
+            //	UnpublicationRequest =7
+
+    //Then Indexes to be Selected
+
+    "CheckBoxNumbers": {
+        "Index": "1,2",
+        "RequestType": "1"
+    },
+
+
+    //CatalogueSelector
+
+    //As at the time of Development These are the OptionToSelect Text you can add Below
+    //Put the Index to be selected in the dropdown Here
+
+    "CatalogueSelector": {
+        "OptionToSelect": "1"
+    },
+
+
+    //As at the time of Development These are the OptionToSelect values you can add Below
+
+    //104"
+    //107"
+    //111"
+    //105"
+    //112"
+    //113"
+    //118"
+    //119"
+    //124"
+    //125"
+    //182"
+
+    "CatalogueSelectorValue": {
+        "value": "182"
+    },
+
+    //Tables
+    //This are put the index you want selected options this
+
+
+    "TableDataSelector": {
+        "OptionToSelect": "1"
+    },
+
+    //For Table Freq
+    //Input the index here
+
+    "TableFrequency": {
+        "OptionToSelect": "1"
+    },
+
+
+    //TableUnit Use Index here from 0-2
+
+
+    "TableUnit": {
+        "OptionToSelect": "2"
+    },
+
+    "TableNewData": {
+        "Name": "Selenium Fat 1201",
+        "Title": "Selenium Fas 1201",
+        "Description": "Selenium Fat 1201"
+    },
+
+    //This Value is either True or False
+    "DataTableSetting": {
+        "Data1": "True",
+        "Data2": "True",
+        "Data3": "True",
+        "Data4": "True",
+        "Data5": "False"
+    },
+
+    //Data Value for the Enabled TextBoxes
+    "DataTableTxtVal": {
+        "Txt1": "Selenium Fat221",
+        "Txt2": "Selenium Fat211",
+        "Txt3": "Selenium Fat231",
+        "Txt4": "Selenium Fat241",
+        "Txt5": "Selenium Fat251"
+    },
+
+    ///Frequency
+
+    "DataFrequency": {
+        "Name": "Newness",
+        "ShortName": "New Flot"
+    },
+
+    //Units
+    "DataUnit": {
+        "Name": "Selenium Volum",
+        "ShortName": "Selenium Stor"
+    },
+
+
+    //Data Entities
+    "DataEntities": {
+        "Name": "Selenium Vol",
+        "ShortName": "Selenium Vol"
+    },
+
+    //Data Sources
+
+    "DataSource": {
+        "Name": "Selenium Vol02",
+        "ShortName": "Selenium Vol02"
+    },
+
+    //IndicatorDataSelector
+    "IndicatorDataSelector": {
+        "SectorIndex": "1",
+        "CategoryIndex": "1",
+        "TableIndex": "1"
+    },
+
+    "NewDataIndicator": {
+        "TopLevelIndi": "1",
+        "Name": "Selams Fot",
+        "Title": "Selams Fot",
+        "EmboldenIndicatorTitle": "True",
+        "DisplayOrder": "3",
+        "DisplayInChart": "True",
+        "TitleToDisplay": "Selams Fet Chill"
+    },
+
+    //Workflow Selection
+
+    "WorkFlowSelection": {
+        "CategoryIndex": "1",
+        "SourceTypeIndex": "1",
+        "RoleIndex": "1"
+    },
+
+    "ReviewSelection": {
+        "Comment": "Testingxk Approval",
+        "Status": "True"
+    },
+
+    ///DataCategory
+
+    "DataCategory": {
+        "Name": "New Selenium Lotsms",
+        "Title": "New Selenium Lotsms"
+    },
+
+    //////////// Request Information Input Fields //////////////
+
+    "RequestInformation": {
+        "Title": "Selenium 0909",
+        "Reason": "Test Reason 0908"
+    },
+
+    "CatRequestInformation": {
+        "Title": "Selenium Tet fet ",
+        "Reason": "Test5 Reasons Fxt "
+    },
+
+    "TableRequestData": {
+        "Title": "Selenium Testz",
+        "Reason": "Test Reasonx"
+    },
+
+    "IndicatorRequestData": {
+        "Title": "Seleniums Viewnliol",
+        "Reason": "Views Reasonxcmkkl"
+    },
+
+
+    ////CMS Analytics  Note the IndicatorsIndexToSelect string will be process as an array seperated by ","
+    //And must not be more than 3
+
+    "AnalyticsDataSector": {
+        "SectorIndex": "13",
+        "CategoryIndex": "1",
+        "TableIndex": "1",
+        "IndicatorsIndexToSelect": "1",
+        "StartDate": "2019",
+        "StopDate": "2023",
+        "Name": "Selenium Fat",
+        "Title": "Selenium Fix",
+        "SeriesTitle": "Selenium Sum",
+        "ChartTypeIndex": "1",
+        "ContentSpotIndex": "1",
+        "Note": "Selenium Test Check"
+
+    },
+
+    ////CMS Analytics  Note the IndicatorsIndexToSelect string will be process as an array seperated by ","
+    //And must not be more than 3
+
+    "FlashCardDataSector": {
+        "SectorIndex": "1",
+        "CategoryIndex": "1",
+        "TableIndex": "1",
+        "IndicatorsIndexToSelect": "1",
+        "StartDate": "2019",
+        "StopDate": "2023",
+        "Name": "Selenium Fat Name",
+        "Title": "Selenium Fat Title",
+        "SeriesTitle": "Selenium Fat Series",
+        "ChartTypeIndex": "1",
+        "ContentSpotIndex": "1",
+        "Note": "Selenium Fat Test"
+
+    },
+
+    ////CMS Analytics  Note the IndicatorsIndexToSelect string will be process as an array seperated by ","
+    //And must not be more than 3
+
+    "FeaturedContentDataSector": {
+        "SectorIndex": "1",
+        "CategoryIndex": "1",
+        "TableIndex": "1",
+        "IndicatorsIndexToSelect": "1",
+        "StartDate": "2019",
+        "StopDate": "2023",
+        "Name": "Selenium Fat Content Name",
+        "Title": "Selenium Fat Content Title",
+        "SeriesTitle": "Selenium Fat Content Series",
+        "ChartTypeIndex": "1",
+        "ContentSpotIndex": "1",
+        "Note": "Selenium Fat Content Test"
+    },
+
+    ////CMS Analytics  Note the IndicatorsIndexToSelect string will be process as an array seperated by ","
+    //And must not be more than 3
+
+    "QFlashDataSector": {
+        "SectorIndex": "1",
+        "CategoryIndex": "1",
+        "TableIndex": "1",
+        "IndicatorsIndexToSelect": "1",
+        "StartDate": "2016",
+        "StopDate": "2023",
+        "Name": "Selenium Fat Content Name",
+        "Title": "Selenium Fat Content Title",
+        "ArrowType": "1",
+        "ArrowDirection": "2",
+        "Value": "3",
+        "Note": "Selenium Fat Test"
+    },
+
+    "BulkTableNewDataCon": {
+        "ApplyAll": "False",
+        "BulkTableNewData": [
+            {
+                "FreqIndexToSelect": "6",
+                "UnitIndexToSelect": "1"
+            },
+            {
+                "FreqIndexToSelect": "6",
+                "UnitIndexToSelect": "2"
+            },
+            {
+                "FreqIndexToSelect": "6",
+                "UnitIndexToSelect": "3"
+            },
+            {
+                "FreqIndexToSelect": "6",
+                "UnitIndexToSelect": "4"
+            },
+            {
+                "FreqIndexToSelect": "6",
+                "UnitIndexToSelect": "5"
+            },
+            {
+                "FreqIndexToSelect": "6",
+                "UnitIndexToSelect": "1"
+            },
+            {
+                "FreqIndexToSelect": "6",
+                "UnitIndexToSelect": "2"
+            },
+            {
+                "FreqIndexToSelect": "6",
+                "UnitIndexToSelect": "5"
+            }
+        ]
+    },
+
+
+
+    "BulkIndicatorNewDataCon": {
+        "Modify": "False",
+        "indexToSelect": "1",
+        "BulkIndicatorNewData": [
+            {
+                "DisplayOrder": "1",
+                "DisplayInChart": "False",
+                "GraphTitle": "Selenium Fat Title"
+            },
+            {
+                "DisplayOrder": "2",
+                "DisplayInChart": "False",
+                "GraphTitle": "Selenium Fat 2"
+            },
+            {
+                "DisplayOrder": "3",
+                "DisplayInChart": "False",
+                "GraphTitle": "Selenium Fat 3"
+            },
+            {
+                "DisplayOrder": "4",
+                "DisplayInChart": "False",
+                "GraphTitle": "Selenium Fat 4"
+            },
+            {
+                "DisplayOrder": "5",
+                "DisplayInChart": "False",
+                "GraphTitle": "Selenium Fat 5"
+            },
+            {
+                "DisplayOrder": "6",
+                "DisplayInChart": "False",
+                "GraphTitle": "Selenium Fat 6"
+            },
+
+            {
+                "DisplayOrder": "7",
+                "DisplayInChart": "False",
+                "GraphTitle": "Selenium Fat 7"
+            }
+        ]
+    }
+}
+
+
+    
